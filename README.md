@@ -1,12 +1,12 @@
 <div align="center">
   <a href="https://samarindakota.go.id/" target="_blank">
-    <img src="public/images/pemkot-samarinda.png" width="90" alt="Logo Pemkot Samarinda">
+    <img src="images/pemkot-samarinda.png" width="90" alt="Logo Pemkot Samarinda">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <h1>Jalan Peduli - Pelaporan Kerusakan Jalan Samarinda</h1>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://dpupr.samarindakota.go.id/" target="_blank">
-    <img src="public/images/dinas-pupr-kota-samarinda.png" width="90" alt="Logo Dinas PUPR Samarinda">
+    <img src="images/dinas-pupr-kota-samarinda.png" width="90" alt="Logo Dinas PUPR Samarinda">
   </a>
 </div>
 
@@ -30,7 +30,7 @@
 <br>
 
 <p align="center">
-  <img src="public/images/panduan_penggunaan.jpeg" width="800" alt="Panduan Penggunaan Aplikasi">
+  <img src="images/panduan_penggunaan.jpeg" width="800" alt="Panduan Penggunaan Aplikasi">
 </p>
 
 ---

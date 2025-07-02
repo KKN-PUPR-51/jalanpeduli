@@ -5,7 +5,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <h1>Jalan Peduli - Pelaporan Kerusakan Jalan Samarinda</h1>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://dpupr.samarindakota.go.id/" target="_blank">
+  <a href="https://pupr.samarindakota.go.id/" target="_blank">
     <img src="images/dinas-pupr-kota-samarinda.png" width="90" alt="Logo Dinas PUPR Samarinda">
   </a>
 </div>

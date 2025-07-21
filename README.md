@@ -1,12 +1,12 @@
 <div align="center">
   <a href="https://samarindakota.go.id/" target="_blank">
-    <img src="images/pemkot-samarinda.png" width="90" alt="Logo Pemkot Samarinda">
+    <img src="public/images/pemkot-samarinda.png" width="90" alt="Logo Pemkot Samarinda">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <h1>Jalan Peduli - Pelaporan Kerusakan Jalan Samarinda</h1>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://pupr.samarindakota.go.id/" target="_blank">
-    <img src="images/dinas-pupr-kota-samarinda.png" width="90" alt="Logo Dinas PUPR Samarinda">
+  <a href="https://dpupr.samarindakota.go.id/" target="_blank">
+    <img src="public/images/dinas-pupr-kota-samarinda.png" width="90" alt="Logo Dinas PUPR Samarinda">
   </a>
 </div>
 
@@ -30,7 +30,7 @@
 <br>
 
 <p align="center">
-  <img src="images/panduan_penggunaan.jpeg" width="800" alt="Panduan Penggunaan Aplikasi">
+  <img src="public/images/panduan_penggunaan.jpeg" width="800" alt="Panduan Penggunaan Aplikasi">
 </p>
 
 ---
@@ -50,13 +50,11 @@
 
 | Kategori            | Teknologi                                                                                                                                                                                                                                                                                            |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Backend** | <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"> |
-| **Frontend** | <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"> |
-| **Database** | <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"> |
-| **Library & Tools** | <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"> <img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet.js"> <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js"> <img src="https://img.shields.io/badge/Anime.js-F84646?style=for-the-badge&logo=anime.js&logoColor=white" alt="Anime.js"> |
-| **Layanan Eksternal** | <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare"> <img src="https://img.shields.io/badge/Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Google Maps"> <img src="https://img.shields.io/badge/MapTiler-5194F3?style=for-the-badge" alt="MapTiler"> |
-| **Machine Learning** | <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"> <img src="https://img.shields.io/badge/CNN-000000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjMDAwIiByeD0iNCIvPjwvc3ZnPg==" alt="CNN"> |
-                                                         |
+| **Backend** | <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">                                                                                                                                                                                  |
+| **Frontend** | <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">                                    |
+| **Database** | <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">                                                                                                                                                                                      |
+| **Library & Tools** | <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"> <img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet.js"> <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js"> <img src="https://img.ies.io/badge/Anime.js-F84646?style=for-the-badge&logo=anime.js&logoColor=white" alt="Anime.js"> |
+| **Layanan Eksternal** | <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare"> <img src="https://img.shields.io/badge/Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Google Maps"> <img src="https://img.io/badge/MapTiler-5194F3?style=for-the-badge" alt="MapTiler"> |                                                           |
 
 ---
 
@@ -115,6 +113,88 @@
 8.  Pastikan izin folder `storage` dan `bootstrap/cache` sudah benar (writable oleh web server).
 9.  Arahkan web server (Nginx/Apache) ke direktori `public`.
 10. Optimalkan konfigurasi dan route: `php artisan optimize`.
+
+---
+
+
+## External API (Coba Langsung di Postman)
+
+Proyek ini menyediakan API eksternal untuk pelaporan kerusakan jalan. Semua endpoint API dilindungi oleh API Key.
+
+### 🔑 Cara Mendapatkan API Key
+1. Login sebagai Super Admin di aplikasi web.
+2. Buka: `http://domain.com/superadmin/api-keys`
+3. Klik "Generate API Key Baru", lalu salin API Key yang muncul.
+
+---
+
+### 🚦 Contoh Penggunaan Endpoint di Postman
+
+#### Endpoint: Membuat Laporan Baru
+
+- **URL:** `http://localhost:8000/api/laporan`
+- **Method:** `POST`
+- **Headers:**
+  - `X-API-KEY: [API_KEY_YANG_ANDA_DAPATKAN]`
+  - `Accept: application/json`
+- **Body:** (pilih `form-data` di Postman)
+  - `nama_pelapor` (String)
+  - `nomor_telepon` (String)
+  - `email_pelapor` (String)
+  - `alamat_pelapor` (String)
+  - `jenis_kerusakan` (String)
+  - `deskripsi_kerusakan` (String)
+  - `alamat_lengkap_kerusakan` (String)
+  - `kecamatan_id` (Integer)
+  - `kelurahan_id` (Integer)
+  - `latitude` (Numeric)
+  - `longitude` (Numeric)
+  - `foto_kerusakan` (File, multiple, type: image)
+  - `rating_kepuasan` (Integer, 1-5)
+  - `feedback` (String, opsional)
+  - `dokumen_pendukung` (File, opsional, type: PDF)
+
+#### Langkah di Postman
+1. Pilih method `POST` dan masukkan URL endpoint.
+2. Pada tab `Headers`, tambahkan:
+   - Key: `X-API-KEY`, Value: `[API_KEY_YANG_ANDA_DAPATKAN]`
+   - Key: `Accept`, Value: `application/json`
+3. Pada tab `Body`, pilih `form-data` dan masukkan semua field sesuai tabel di atas.
+4. Untuk `foto_kerusakan`, pilih type `File` dan tambahkan beberapa file gambar.
+5. Klik `Send`.
+
+#### Contoh Response Sukses
+
+```json
+{
+  "success": true,
+  "message": "Laporan Anda berhasil dikirim dan sedang menunggu verifikasi.",
+  "data": {
+    "id_laporan": "2501010001",
+    "status": "Menunggu Verifikasi",
+    "detail_url": "http://localhost:8000/api/laporan/2501010001"
+  }
+}
+```
+
+#### Contoh Response Error
+
+```json
+{
+  "success": false,
+  "message": "Data yang diberikan tidak valid.",
+  "errors": {
+    "email_pelapor": ["The email pelapor field must be a valid email address."]
+  }
+}
+```
+
+---
+
+**Tips:**
+- Pastikan semua field wajib diisi.
+- Untuk upload file, gunakan type `File` di Postman.
+- Jika error 401, cek kembali API Key Anda.
 
 ---
 
